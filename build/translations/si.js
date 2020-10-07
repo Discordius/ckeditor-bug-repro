@@ -1,1 +1,1 @@
-(function(d){	const l = d['si'] = d['si'] || {};	l.dictionary=Object.assign(		l.dictionary||{},		{Italic:"ඇලකුරු",Redo:"නැවත කරන්න",Undo:"අහෝසි කරන්න"}	);l.getPluralForm=function(n){return (n != 1);;};})(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
+!function(i){const n=i.si=i.si||{};n.dictionary=Object.assign(n.dictionary||{},{Italic:"ඇලකුරු",Redo:"නැවත කරන්න",Undo:"අහෝසි කරන්න"}),n.getPluralForm=function(i){return 1!=i}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));

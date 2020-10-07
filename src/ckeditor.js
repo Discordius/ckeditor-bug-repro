@@ -4,13 +4,13 @@
  */
 
 // The editor creator to use.
-import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
+import BalloonBlockEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Math from './example-plugin/mathediting';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 
-export default class BalloonEditor extends BalloonEditorBase {}
+export default class BalloonEditor extends BalloonBlockEditorBase {}
 
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [

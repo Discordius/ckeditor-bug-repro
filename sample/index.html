@@ -15,14 +15,17 @@
 <h1>CKEditor 5 – balloon editor build – development sample</h1>
 
 <div id="editor">
-	<p><strong>To see that:</strong>&nbsp;<span class="math-tex">\(\bowtie\)</span>&nbsp;is <strong>strictly</strong> weaker <i>asdasdsa&nbsp;</i></p>
+	<p>Definition: Given Cartesian frames&nbsp;<span class="math-tex">&nbsp;</span></p>
 </div>
-
+<a onClick="console.log(window.editor.getData())"> Log Contents </a>
 <script src="../build/ckeditor.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ckeditor/ckeditor5-inspector@1.5.0/build/inspector.js"></script>
 <script>
 	BalloonEditor.create( document.querySelector( '#editor' ) )
 		.then( editor => {
 			window.editor = editor;
+			CKEditorInspector.attach(editor);
+			return editor
 		} )
 		.catch( error => {
 			console.error( 'There was a problem initializing the editor.', error );

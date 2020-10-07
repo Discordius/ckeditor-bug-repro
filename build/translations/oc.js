@@ -1,1 +1,1 @@
-(function(d){	const l = d['oc'] = d['oc'] || {};	l.dictionary=Object.assign(		l.dictionary||{},		{Italic:"Italica"}	);l.getPluralForm=function(n){return (n > 1);;};})(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
+!function(i){const n=i.oc=i.oc||{};n.dictionary=Object.assign(n.dictionary||{},{Italic:"Italica"}),n.getPluralForm=function(i){return i>1}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
