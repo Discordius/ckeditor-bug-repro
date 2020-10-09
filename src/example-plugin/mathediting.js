@@ -66,7 +66,7 @@ export default class MathEditing extends Plugin {
 			const mathtexView = writer.createContainerElement( 'span' );
 
 			// Div is formatted as parent container
-			const uiElement = writer.createRawElement( 'div', {style: "display: inline"}, function( domElement ) {
+			const uiElement = writer.createRawElement( 'span', {style: "font-weight: bold"}, function( domElement ) {
 				domElement.innerHTML = "[equation]";
 				// renderEquation( equation, domElement, mathConfig.engine, display, false );
 				return domElement;
